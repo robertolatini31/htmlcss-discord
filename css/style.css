@@ -49,9 +49,8 @@ body {
 
 .container {
     width: 1100px;
-    height: 550px;
-    margin: 0 auto;
-    padding-top: 0.7rem;
+    height: 460px;
+    margin: 0 auto;  
 }
 
 /* ---> header <---  */
@@ -60,6 +59,7 @@ header {
     background-image: url('../img/jumbo.png');
     height: 460px;
     background-size: cover;
+    padding-top: 0.7rem;
 }
 
 .navbar>.logo {
@@ -107,9 +107,9 @@ header {
 }
 
 .content {
-    top:40%;
+    top:50%;
     left: 50%;
-    transform: translate(-50%,-40%);
+    transform: translate(-50%,-50%);
     text-align: center;
     width: 524px;
 }
@@ -157,4 +157,19 @@ header {
     font-size: 16px;
     font-weight: 500;
     padding-right: 4px;
+}
+
+/* ---> Main <---  */
+
+.img_section1 {
+    width: 70%;
+}
+
+.img_section1>img {
+    padding: 2rem;
+    width: 650px;
+}
+
+.text_section1 {
+    width: 30%;
 }
