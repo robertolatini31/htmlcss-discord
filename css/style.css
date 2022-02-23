@@ -3,6 +3,7 @@
     --button-bgcolor: white;
     --button-color: black;
     --content_header-color: white;
+    --onda-bgcolor: #e5e5e5;
 }
 * {
     margin: 0;
@@ -15,6 +16,10 @@ body {
 }
 
 /* ---> Utility <---  */
+
+.bg_onda {
+    background-color: var(--onda-bgcolor);
+}
 
 .red {
     background-color: rgb(247, 72, 72);
@@ -187,3 +192,10 @@ header {
     font-size: 13px;
     font-weight: 400;
 }
+
+.onda_container {
+    height: 100px;
+    background-image: url('../img/wave.svg');
+    filter: opacity(0.1);  
+}
+
