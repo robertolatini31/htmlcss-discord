@@ -17,6 +17,10 @@ body {
 
 /* ---> Utility <---  */
 
+.inverse{
+    transform: rotate(180deg);
+}
+
 .bg_onda {
     background-color: var(--onda-bgcolor);
 }
@@ -58,7 +62,13 @@ body {
     margin: 0 auto;  
 }
 
-/* ---> header <---  */
+.onda_container {
+    height: 100px;
+    background-image: url('../img/wave.svg');
+    filter: opacity(0.1);  
+}
+
+/************* ---> header <---  ****************/
 
 header {
     background-image: url('../img/jumbo.png');
@@ -164,8 +174,10 @@ header {
     padding-right: 4px;
 }
 
-/* ---> Main <---  */
+/********** ---> Main <---  **************/
 
+
+/* ---> Section1 <---  */
 .img_section1 {
     width: 65%;
 }
@@ -191,11 +203,67 @@ header {
     padding-top: 1rem;
     font-size: 13px;
     font-weight: 400;
+    line-height: 20px;
 }
 
-.onda_container {
-    height: 100px;
-    background-image: url('../img/wave.svg');
-    filter: opacity(0.1);  
+
+
+/* ---> Section2 <---  */
+
+.img_section2 {
+    width: 65%;
 }
 
+.img_section2>img {
+    padding: 2rem;
+    width: 650px;
+}
+
+.text_section2 {
+    width: 35%;
+    padding-top: 4rem;
+    padding-right: 7rem;
+    padding-left: 0.7rem;
+}
+
+.text_section2>h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text_section2>p {
+    padding-top: 1rem;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* ---> Section3 <---  */
+
+.img_section3 {
+    width: 65%;
+}
+
+.img_section3>img {
+    padding: 2rem;
+    width: 650px;
+}
+
+.text_section3 {
+    width: 35%;
+    padding-top: 4rem;
+    padding-right: 7rem;
+    padding-left: 0.7rem;
+}
+
+.text_section3>h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.text_section3>p {
+    padding-top: 1rem;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
