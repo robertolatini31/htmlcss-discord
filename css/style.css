@@ -358,6 +358,7 @@ footer {
 
 .title_footer {
     color: var(--footer_title-color);
+    margin-bottom: 1rem;
 }
 
 .col_30>img {
@@ -372,7 +373,7 @@ footer {
     font-size: 10px;
 }
 .social {
-    margin-top: 10px;
+    margin-top: 1rem;
 }
 .social_link {
     height: 1rem;
