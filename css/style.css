@@ -6,6 +6,8 @@
     --onda-bgcolor: #e5e5e5;
     --downloadsect4-bgcolor: #8ea1e1;
     --downloadsect4-color: white;
+    --footer-bgcolor: #23272a;
+    --footer_title-color: #7289da;
 }
 * {
     margin: 0;
@@ -324,5 +326,57 @@ header {
 }
 
 .download_section4 div {
-    padding: 3rem;
+    padding: 2rem;
 }
+
+/********** ---> Footer <---  **************/
+
+footer {
+    background-color: var(--footer-bgcolor);
+    height: 200px;
+}
+
+.container_footer {
+    width: 1100px;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.row_1 {
+    width: 100%;
+}
+
+.col_30 {
+    width: 30%;
+    padding-left: 2rem;
+    padding-right: 7rem;
+}
+
+.col_70 {
+    width: 70%;
+}
+
+.title_footer {
+    color: var(--footer_title-color);
+}
+
+.col_30>img {
+    width: 1rem;
+    vertical-align: bottom;
+}
+
+.languages {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 10px;
+}
+.social {
+    margin-top: 10px;
+}
+.social_link {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 5px;
+}
+
