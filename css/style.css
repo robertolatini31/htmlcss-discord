@@ -4,6 +4,8 @@
     --button-color: black;
     --content_header-color: white;
     --onda-bgcolor: #e5e5e5;
+    --downloadsect4-bgcolor: #8ea1e1;
+    --downloadsect4-color: white;
 }
 * {
     margin: 0;
@@ -266,4 +268,61 @@ header {
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
+}
+
+/* ---> Section4 <---  */
+
+.container_section4 {
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 4rem; 
+}
+
+.title_section4 {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+.title_section4>h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.title_section4>p {
+    padding-top: 1rem;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 12rem;
+    padding-right: 12rem;
+}
+
+.download_section4>h4{
+    display: inline-block;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    background-size: contain;
+    padding-right: 3rem;
+    background-image: url('../img/stars.svg') ;
+}
+
+.download_section4 a {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 500;
+    height: 30px;
+    line-height: 30px;
+    width: 60px;
+    text-align: center;
+    border-radius: 20px;      
+    font-size: 12px;
+    padding: 8px 16px;
+    color: var(--downloadsect4-color);
+    background-color: var(--downloadsect4-bgcolor);
+}
+
+.download_section4 div {
+    padding: 3rem;
 }
